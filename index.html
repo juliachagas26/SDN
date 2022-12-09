@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Resume - Start Bootstrap Theme</title>
+        <title>SDN - Software Defined Networks</title>
         <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
@@ -19,18 +19,20 @@
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
             <a class="navbar-brand js-scroll-trigger" href="#page-top">
-                <span class="d-block d-lg-none">Clarence Taylor</span>
-                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile.jpg" alt="..." /></span>
+                <span class="d-block d-lg-none">SDN</span>
+                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/ufrj.jpg" alt="..." /></span>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Awards</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">Sobre</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Introdução</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Objetivos</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Arquitetura</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Ferramentas</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Segurança na SDN</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#conclusion">Conclusão</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#references">Referências</a></li>
                 </ul>
             </div>
         </nav>
@@ -44,15 +46,22 @@
                         <span class="text-primary">Softwares</span>
                     </h1>
                     <div class="subheading mb-5">
-                        Redes II · UFRJ · Professor Luís Henrique ·
-                        <!-- <a href="mailto:name@email.com">name@email.com</a> -->
+                        Redes II · 2022.2 · UFRJ · Professor Luís Henrique
                     </div>
-                    <p class="lead mb-5">I am experienced in leveraging agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
-                    <div class="social-icons">
-                        <a class="social-icon" href="#!"><i class="fab fa-linkedin-in"></i></a>
-                        <a class="social-icon" href="#!"><i class="fab fa-github"></i></a>
-                        <a class="social-icon" href="#!"><i class="fab fa-twitter"></i></a>
-                        <a class="social-icon" href="#!"><i class="fab fa-facebook-f"></i></a>
+                    <p class="lead mb-5">Neste site você vai encontrar uma descrição sobre Software Defined Networks, SDNs, feita pelos alunos de graduação:</p>
+                    <div class="social-icons" style="display: flex; flex-direction: row; justify-content: space-evenly;">
+                        <div  style="display:flex; align-items: center; flex-direction: column; align-content: space-around;">
+                            <center><img class="social-icon" src="./assets/img/christian.jfif"></center>
+                            <p>Christian Moreira</p>
+                        </div>
+                        <div  style="display:flex; align-items: center; flex-direction: column; align-content: space-around;">
+                            <center><img class="social-icon" src="./assets/img/julia.jfif"></center>
+                            <p>Júlia Chagas</p>
+                        </div>
+                        <div  style="display:flex; align-items: center; flex-direction: column; align-content: space-around;">
+                            <center><img class="social-icon" src="./assets/img/thamyres.jfif"></center>
+                            <p>Thamyres Oliveira</p>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -60,38 +69,16 @@
             <!-- Experience-->
             <section class="resume-section" id="experience">
                 <div class="resume-section-content">
-                    <h2 class="mb-5">Experience</h2>
+                    <h2 class="mb-5">Introdução</h2>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">Senior Web Developer</h3>
-                            <div class="subheading mb-3">Intelitec Solutions</div>
-                            <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
+                            <p>O surgimento da Internet se deu com redes intencionalmente separadas umas das outras, de maneira física. Mesmo sistemas usados para gerenciar recursos de armazenamento e redes eram tratados de maneira distante de políticas de acesso, sistema e procedimentos por conta da segurança. Esse modelo funcionou até pouco tempo atrás, quando a demanda por maior acessibilidade financeira a computadores mais potentes, espaço de armazenamento e redes centralizando informações foi crescendo.</p>
+                            <p>Nesse contexto, a tecnologia envolvendo redes de computadores foi avançando drasticamente nos últimos anos com velocidade das linhas, densidade de portas e razões entre performance e preços aumentando. No entanto, mecanismos de controle para as redes não avançaram com a mesma rapidez. Levam-se anos para desenhar e ainda mais tempo para subir as alterações de um protocolo de controle de rede. Por isso, existe um movimento guiado tanto pela indústria quanto pelos estudiosos para um novo paradigma onde o plano de controle é separado do plano de entrega e construído como um sistema distribuído.</p>
+                            <p>Assim, de maneira geral, uma Rede Definida por Software - SDN, em inglês - é uma abordagem para otimizar operações de redes ao aumentar a interação entre aplicações, serviços de rede e aparelhos, sejam reais ou virtualizados. São arquitetadas oferecendo um ponto de centralização da lógica de controle da rede - chamado de um controlador SDN - que vai gerenciar a comunicação entre aplicações querendo interagir com elementos de rede e vice-versa. O controlador então realiza as funções e operações de rede em softwares modernos.</p>
+                            <p>Podemos atrelar o surgimento de SDNs ao desenvolvimento do protocolo OpenFlow. Com ele, elementos de encaminhamento apresentam uma interface programável simples que permite estender o acesso e o controle da tabela de roteamento, assim tendo controle dos próximos passos de cada pacote transmitido. O encaminhamento continua sendo eficiente com a consulta aos passos de envio dos pacotes sendo atribuída ao hardware, mas a decisão de como cada pacote deve ser processado pode sofrer interferências de um nível superior que implementa diferentes funcionalidades.</p>
+                            <p>O padrão OpenFlow oferece uma solução simples para a criação de redes virtuais sobre uma infraestrutura física, onde cada rede virtual é composta por switches, roteadores e gateways de aplicações tradicionais. O paradigma de Redes Definidas por Software vai além e também possibilita o desenvolvimento de novas aplicações que controlem os elementos de comutação de uma rede física de formas inovadoras.</p>
+                            <p>É o que vamos aprofundar nos próximos capítulos.</p>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">March 2013 - Present</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Web Developer</h3>
-                            <div class="subheading mb-3">Intelitec Solutions</div>
-                            <p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">December 2011 - March 2013</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Junior Web Designer</h3>
-                            <div class="subheading mb-3">Shout! Media Productions</div>
-                            <p>Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">July 2010 - December 2011</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Web Design Intern</h3>
-                            <div class="subheading mb-3">Shout! Media Productions</div>
-                            <p>Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">September 2008 - June 2010</span></div>
                     </div>
                 </div>
             </section>
@@ -99,23 +86,12 @@
             <!-- Education-->
             <section class="resume-section" id="education">
                 <div class="resume-section-content">
-                    <h2 class="mb-5">Education</h2>
+                    <h2 class="mb-5">Objetivos</h2>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">University of Colorado Boulder</h3>
-                            <div class="subheading mb-3">Bachelor of Science</div>
-                            <div>Computer Science - Web Development Track</div>
-                            <p>GPA: 3.23</p>
+                            <p>Redes Definidas por Softwares são aquelas nas quais o plano de controle é fisicamente separado do plano de encaminhamento, sendo esse plano de controle único e gerencia diferentes máquinas de distribuição.</p>
+                            <p>Os objetivos da implementação de uma SDN não são necessariamente endereçar dificuldades técnicas de roteamento, controle de congestionamento, engenharia de tráfego, segurança, ou comunicação em tempo real, mas sim abrir novas oportunidades para criar novas soluções para o funcionamento escalável de redes. Como detalhamentos de transmissão de pacotes são feitos por Software, eles se tornam mais fáceis de avançar na mesma velocidade que os demais sistemas que compõem a internet.</p>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">August 2006 - May 2010</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">James Buchanan High School</h3>
-                            <div class="subheading mb-3">Technology Magnet Program</div>
-                            <p>GPA: 3.56</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">August 2002 - May 2006</span></div>
                     </div>
                 </div>
             </section>
@@ -123,99 +99,158 @@
             <!-- Skills-->
             <section class="resume-section" id="skills">
                 <div class="resume-section-content">
-                    <h2 class="mb-5">Skills</h2>
-                    <div class="subheading mb-3">Programming Languages & Tools</div>
-                    <ul class="list-inline dev-icons">
-                        <li class="list-inline-item"><i class="fab fa-html5"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-angular"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-react"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-node-js"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-sass"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-less"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-wordpress"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-gulp"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-grunt"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-npm"></i></li>
-                    </ul>
-                    <div class="subheading mb-3">Workflow</div>
-                    <ul class="fa-ul mb-0">
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Mobile-First, Responsive Design
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Cross Browser Testing & Debugging
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Cross Functional Teams
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Agile Development & Scrum
-                        </li>
-                    </ul>
-                </div>
+                    <h2 class="mb-5">Arquitetura</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <p>Software Defined Networks possuem uma arquitetura de rede cuja principal característica é a separação da lógica de controle do encaminhamento de pacote de dados, tornando as aplicações e o controle da rede programáveis.</p>
+                            <p>A arquitetura de uma rede SDN é dividida em três camadas: camada de aplicação, camada de controle e camada de infraestrutura (dados), como é possível verificar na imagem abaixo:</p>
+                            <center><img src="./assets/img/img1.png" height="65%" width ="35%"></center>
+                        </div>
+                    </div>
+                    <div class="subheading mb-3">Camada de aplicação</div>
+                    <p>A função da camada de aplicação é fazer com que operadoras de rede operem rapidamente ao receberem comandos de requisitos de negócios, para isso, ela contém um conjunto de funções de rede e aplicativos para otimizar o desempenho e aumentar a segurança da rede. Na camada de aplicação, ficam os controladores de otimização, firewalls, autenticação e controladores de entrega de aplicativos. A camada de aplicação opera em cima da camada de controle, e possui programas que possibilitam a comunicação via API com limite norte de instruções de redes ao controlador SDN, como por exemplo, a API REST.</p>
+                    <p>Os operadores de rede da camada de aplicação conseguem alterar os caminhos dos pacotes via programação centralmente nos controladores SDN, isso porque a camada de controle abstrai os recursos físicos para a camada de aplicação, evitando que a aplicação precise configurar os switches físicos um a um  no caminho de dados do pacote.</p>
+                    <br>
+                    <div class="subheading mb-3">Camada de controle</div>
+                    <p>A camada de controle é responsável por controlar e gerenciar toda a rede. Ela é o cérebro da SDN. A comunicação do controlador SDN com o switch é feito via API de limite sul, como o OpenFlow, e visualiza globalmente toda a topologia de rede na camada de encaminhamento de dados. A camada de controle também é responsável por rodar alguns protocolos de roteamento, como o OSPF e o BGP, para que o encaminhamento de dados da próxima camada (camada de dados) rode com base nas instruções passadas pelo controlador.</p>
+                    <p>A fim de melhorar a disponibilidade e a escalabilidade dos recursos de rede, as implementações recentes da arquitetura SDN conseguem suportar múltiplos controladores distribuídos. Na arquitetura com vários controladores, cada um dos controladores individuais é responsável por operar uma parte dos switches. A fim de se manter o trabalho uniforme, colaborativo e de status consistente, os controladores individuais SDN comunicam-se na rede via APIs com limite leste-oeste.</p>
+                    <div class="subheading mb-3">Camada de dados</div>
+                    <p>A camada de encaminhamento de dados é formada por múltiplos switches SDN fisicamente interligados por mídia com ou sem fio. Os switches são dispositivos simples que encaminham pacotes de rede com base em regras usadas para decisões de encaminhamento, presentes na tabela de encaminhamento, a Flow Table. A tabela de fluxo é composta de itens que possuem três campos: a ação a ser executada, o contador e um padrão. </p>
+                    <p>Este último campo de padrão, define o padrão de fluxo composto pelo conjunto de valores do cabeçalho do pacote.</p>
+                    <p>Quando um pacote de dados é recebido, o switch busca na sua Tabela de Fluxo uma regra correspondente aos campos do cabeçalho. Assim que o switch acha a regra certa, o contador da regra aumenta e a ação é executada. Se o switch não encontrar a tal regra, ele irá notificar o controlador para buscar ajuda ou realizar o descarte do pacote. É importante ressaltar que os itens da regra de encaminhamento não são criados pelo nó do switch, mas sim “empurrados” pelo controlador da camada de controle.</p>
             </section>
             <hr class="m-0" />
             <!-- Interests-->
             <section class="resume-section" id="interests">
                 <div class="resume-section-content">
-                    <h2 class="mb-5">Interests</h2>
-                    <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.</p>
-                    <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.</p>
-                </div>
+                    <h2 class="mb-5">Ferramentas</h2>
+                    <div class="subheading mb-3">Controladores</div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <p>O controlador de rede surge como um nível na arquitetura que concentra as tarefas de manipulação dos dispositivos de rede, oferecendo um nível de abstração mais alto para o desenvolvedor através de APIs - Application Programming Interface. Isso é necessário porque definindo interfaces de programação para elementos de chaveamento, o controle separado de cada switch traria limitações como as do desenvolvimento de software ligado diretamente a um elemento de hardware, já que seria preciso lidar com tarefas de baixo nível que não são escaláveis para todos os hardwares.</p>
+                            <p>Assim, o controlador concentra a comunicação com todos os elementos programáveis da rede e oferece uma visão unificada do seu estado. A partir desse diagnóstico, outros comandos podem ser executados, criando novas funcionalidades mais específicas. A visão centralizada que o controlador fornece é um dos pontos fortes da utilização de SDNs, pois com ela é possível debugar a rede mais rapidamente, além de fornecer meios de otimizar as decisões operacionais do sistema.</p>
+                            <br>
+                            <center><img src="./assets/img/controladores.png" height="55%" width ="35%"></center>
+                            <br><br>
+                            <p>Segundo a descrição padrão de um controlador, esse sistema deve conter, de maneira simplificada:</p>
+                            <ul>
+                                <li>O gerenciamento do estado de redes que, em alguns casos, pode incluir uma base de dados para armazenar as informações provenientes dos elementos de rede.</li>
+                                <li>Um modelo de dados de alto nível que engloba as relações entre os recursos gerenciados e outros serviços fornecidos pelo controlador.</li>
+                                <li>Uma API que transmita os serviços do controlador para a aplicação, o que facilita a interação entre eles. Essa interface é renderizada pelo modelo de dados que descreve as funcionalidades do controlador.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="subheading mb-3">Open Flow</div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <p>OpenFlow foi originalmente desenvolvido como parte de pesquisa em redes na Universidade de Stanford. Seu foco inicial era a possibilidade de criar protocolos experimentais na rede do campus. Acabou sendo, porém, de extrema importância para o surgimento de Redes Definidas por Softwares, sendo os componentes principais do modelo OpenFlow, a própria definição de SDNs:</p>
+                            <ul>
+                                <li>A separação do controle em planos de dados.</li> 
+                                <li>Um protocolo padrão entre controlador e agente de rede, para implementar o instanciamento do estado.</li>
+                                <li>Programação da rede a partir de um ponto centralizado, usando APIs. </li>
+                            </ul>
+                            <p>Assim, OpenFlow é um conjunto de protocolos associado a uma API, onde o controlador atua apenas com as instruções dessa API. </p>
+                            <p>Os protocolos OpenFlow são divididos em duas partes: a primeira delas, a parte do protocolo de cabo, é para estabelecer uma sessão de controle, definindo uma estrutura de mensagem para troca de modificações de fluxo, além de coletar estatísticas e definir a estrutura fundamental de um switch. A segunda parte é para configurar e gerenciar o protocolo que aloca os switchs físicos para um controlador específico, definindo alta acessibilidade e comportamentos de controlador com falha de conexão.</p>
+                            <p>Com o padrão OpenFlow, prioriza-se o uso de equipamentos de redes comerciais para pesquisa e experimentação de novos protocolos de rede, o que facilita que os resultados das pesquisas sejam transferidos para a indústria.</p>
+                            <p>No plano de dados, o encaminhamento de pacotes é gerenciado com base em regras simples associadas a cada entrada da tabela de encaminhamento do comutador de pacotes.</p>
+                            <p>São elas:</p>
+                            <ul>
+                                <li>Encaminhamento do pacote para uma determinada porta do dispositivo</li> 
+                                <li>Alteração de parte dos cabeçalhos</li>
+                                <li>Descarte do pacote</li>
+                                <li>Encaminhamento do pacote para inspeção por um controlador da rede</li>
+                            </ul>
+                            <p>Já o plano de controle permite que o controlador da rede programe as entradas da tabela de encaminhamento com padrões que identifiquem fluxos de interesse e regras associadas a eles. O elemento controlador pode ser um módulo de software implementado de forma independente em algum ponto da rede. </p>
+                            <p>As especificações das mensagens no OpenFlow definem a comunicação entre os switches e o controlador. São três tipos de mensagens: “controller-switch”, assíncrona e simétrica.</p>
+                            <p>A mensagem “controller-switch” é iniciada no controlador, usada para gerenciamento do status do switch. A mensagem assíncrona é enviada pelo switch, mas sem solicitação do controlador, e é usada para informar atualizações no switch, como chegada de pacotes, mudança do estado do switch ou eventuais erros. Por fim, a mensagem simétrica é enviada tanto do switch quanto do controlador, e também sem solicitação de nenhum dos lados. Uma mensagem simétrica importante, por exemplo, é a “Hello”, usada para início de conexão entre controlador e switch.</p>
+                            <p>Em um simples fluxo que não estaria registrado na tabela de fluxos, a sequência de mensagens seria um packet-in, mensagem assíncrona, indicando que um pacote novo chegou e que o controlador deve especificar por qual rota ele deve ser encaminhado, e para isso viria o packet-out, mensagem “controller-switch”. Essa sequência ignora outras mensagens, como mensagens de conexão ou de informações de estado.</p>
+                        </div>
+                    </div>
+                    <div class="subheading mb-3">Routeflow</div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <p>RouteFlow é um projeto desenvolvido para SDN que fornece serviços de roteamento IP totalmente virtualizados em hardwares que são próprios para OpenFlow. Ele interliga a infraestrutura do tipo OpenFlow a um ambiente composto por máquinas virtuais (VMs), cada um dos RouteFlow realizando seu próprio mecanismo de roteamento. O RouteFlow instrui os switches por meio de controladores OpenFlow que fazem a função de proxies, realizando a tradução das informações de protocolos e eventos nos ambientes virtuais e físicos.</p>
+                            <p>As máquinas virtuais são interligadas de modo dinâmico, formando da topologia lógica um espelho da estrutura física.</p>
+                            <p>O RouteFlow pode ser separado em 3 partes, são elas:</p>
+                            <ul>
+                                <li><b>RouteFlow Protocol</b>: aqui se concentram os comandos de configuração de máquinas virtuais</li>
+                                <li><b>RouteFlow Slaves</b>: os slaves realizam a comunicação das máquinas virtuais com o controlador. Essas aplicações são executadas nas próprias VMs</li>
+                                <li><b>RouteFlow Controller</b>: gerencia todo o recebimento de pacotes, conexão entre as máquinas virtuais e os computadores e o estado de cada computador</li>
+                            </ul>
+                            <p>Na figura abaixo, é possível ter uma visão geral de uma rede controlada pelo RouteFlow:</p>
+                            <br>
+                            <center><img src="./assets/img/route.png" height="65%" width ="55%"></center>
+                        </div>
+                    </div>
+                    <div class="subheading mb-3">Flowvisor</div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <p>O FlowVisor atua como um controlador de rede, sendo responsável pela divisão do espaço de endereçamento disponível na rede OpenFlow. Nesse esquema, fatias da rede são definidas pela união, interseção e/ou diferença de valores dos diversos campos disponíveis para identificar os fluxos OpenFlow.</p>
+                            <p>Uma instância do FlowVisor se coloca entre os diversos controladores e os dispositivos físicos e os comandos desses controladores são observados para garantir que as regras geradas por eles não ultrapassem a definição do domínio daquele controlador de rede.</p>
+                            <p>Ao mesmo tempo, mensagens enviadas pelos switches OpenFlow são inspecionadas e direcionadas para o controlador apropriado do OpenFlow, em função do seu domínio de origem. </p>
+                        </div>
+                    </div>
+                    <div class="subheading mb-3">Open vSwitch</div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <p>Open vSwitch é a ferramenta open source implementada em softwares como parte do hypervisor que roda no servidor. Esse visor é responsável por encaminhar pacotes das máquinas virtuais, tanto saindo quanto chegando.</p>
+                            <p>Com a possibilidade de criação de múltiplos switchs virtuais, inclusive em máquinas físicas diferentes, também é possível automatizar a rede a partir de sua programação. Nesses switchs, é possível implementar diversos protocolos, inclusive o OpenFlow, além de definir controladores como o POX e o NOX.</p>
+                        </div>
+                    </div>
             </section>
             <hr class="m-0" />
             <!-- Awards-->
             <section class="resume-section" id="awards">
                 <div class="resume-section-content">
-                    <h2 class="mb-5">Awards & Certifications</h2>
-                    <ul class="fa-ul mb-0">
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            Google Analytics Certified Developer
+                    <h2 class="mb-5">Segurança na SDN</h2>
+                    <p>Quando olhamos para as redes SDN, é possível constatar que em relação a segurança, elas são mais propensas a ataques quando comparadas às redes tradicionais. Isso ocorre em virtude do desacoplamento do controlador e da camada de dados, que embora traga vantagens quando se olha para segurança, também oferece desvantagens. </p>
+                    <p>As vantagens são:</p>
+                    <ul>
+                        <li><b>Monitoramento eficaz de tráfego anormal</b>: um controlador SDN percebe, simultaneamente, todo o tráfego de rede. Assim, nota-se facilmente anormalidades no tráfego de rede.</li>
+                        <li><b>Tempo hábil para tratar vulnerabilidades</b>: Por ser uma rede definida por software, se uma nova ameaça for encontrada, facilmente os operadores da rede podem programar um software que vai tratar a vulnerabilidade da rede em tempo hábil. Em redes tradicionais, é necessário esperar por uma atualização do SO ou software aplicativo integrado nos dispositivos.</li>
+                    </ul>
+                    <p>Já as desvantagens são:</p>
+                    <ul>
+                        <li><b>Controlador vulnerável</b>: as funções estão majoritariamente concentradas no controlador SDN, o que diminui a complexidade de eventuais ataques. Se um invasor conseguir acessar o controlador, ele consegue causar um estrago tão grande nos serviços de rede, podendo levar à parada de toda a rede que o controlador é responsável. </li>
+                        <li><b>Riscos causados por interfaces programáveis abertas</b>: por serem naturalmente abertas, as redes definidas por software são mais expostas a falhas de segurança quando se comparadas a redes tradicionais, pois se os invasores obtiverem o controle do controlador, conseguem informações para planejar um ataque. Soma-se a isso a gama de interfaces programáveis para a camada de aplicação, abrindo portas para o invasor colocar seu próprio programa. </li>
+                        <li><b>Outros pontos de ataque</b>: por estar dividida em três camadas, as redes definidas por software podem ser separadas por locais distintos da rede, proporcionando mais pontos de ataques quando se comparada a redes tradicionais. Abaixo, listamos alguns pontos vulneráveis:
+                            <ul>
+                                <li><b>Links entre switches</b>: os pacotes de dados que navegam entre os switches na maioria das vezes não são criptografados. Um invasor pode fazer a interceptação desses pacotes.</li>
+                                <li><b>Links entre os switches e o controlador</b>: as regras de encaminhamento de dados são ditadas pelo controlador. Se o invasor realizar espionagem no link entre os switchs e o controlador, consegue mudar essas regras e mudar o curso dos pacotes de dados.</li>
+                                <li><b>Links entre os controladores</b>:  como mencionado anteriormente, no ambiente multicontrolador, cada controlador individual precisa se comunicar com os outros para manter o status correto de trabalho. Os invasores conseguem interceptar os pacotes entre controladores e obter informações suficientes para tomar os controladores.</li>
+                            </ul>
                         </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            Mobile Web Specialist - Google Certification
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            1
-                            <sup>st</sup>
-                            Place - University of Colorado Boulder - Emerging Tech Competition 2009
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            1
-                            <sup>st</sup>
-                            Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            2
-                            <sup>nd</sup>
-                            Place - University of Colorado Boulder - Emerging Tech Competition 2008
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            1
-                            <sup>st</sup>
-                            Place - James Buchanan High School - Hackathon 2006
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            3
-                            <sup>rd</sup>
-                            Place - James Buchanan High School - Hackathon 2005
-                        </li>
+                        
                     </ul>
                 </div>
             </section>
+            <hr class="m-0" />
+            <section class="resume-section" id="conclusion">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Conclusão</h2>
+                    <p>Durante muito tempo, as redes convencionais dominaram o mundo da tecnologia e possibilitaram grandes avanços tecnológicos. Entretanto, com o passar do tempo, foi-se observando que essas redes não estavam mais acompanhando a era tecnológica, pois, entre outros fatores, elas não atendiam prontamente às mudanças de regras de negócios dos clientes. As redes definidas por software surgiram como uma solução para esse e outros problemas, pois, fazem o switch responder de forma rápida e escalável aos comandos da camada de controle.</p>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <section class="resume-section" id="references">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Referências</h2>
+                    <ul>
+                        <li>MEDHI, Deep; RAMASAMY, Karthiky. Network Routing: Algorithms, Protocols, and Architectures.</li>
+                        <li>NADEAU, Thomas D. ; GRAY, Ken. SDN - Software Defined Networks. Disponível em: <a href="https://ridhanegara.staff.telkomuniversity.ac.id/files/2017/04/Thomas-D.-Nadeau-Ken-Gray-SDN-Software-Defined-Networks-O_039_Reilly-Media-2013.pdf">https://ridhanegara.staff.telkomuniversity.ac.id/files/2017/04/Thomas-D.-Nadeau-Ken-Gray-SDN-Software-Defined-Networks-O_039_Reilly-Media-2013.pdf</a>, acesso em: 05/10/2022</li>
+                        <li><a href="https://sdn.systemsapproach.org/index.html">https://sdn.systemsapproach.org/index.html</a>, acesso em: 05/10/2022</li>
+                        <li><a href="https://blog.algartelecom.com.br/geral/o-que-e-sdn-software-defined-network-e-como-funciona/">https://blog.algartelecom.com.br/geral/o-que-e-sdn-software-defined-network-e-como-funciona/</a>, acesso em: 05/10/2022</li>
+                        <li><a href="https://opennetworking.org/sdn-definition/">https://opennetworking.org/sdn-definition/</a>, acesso em: 05/10/2022</li>
+                        <li><a href="https://en.wikipedia.org/wiki/Software-defined_networking">https://en.wikipedia.org/wiki/Software-defined_networking</a>, acesso em: 05/10/2022</li>
+                        <li><a href="http://homepages.dcc.ufmg.br/~mmvieira/cc/papers/minicurso-sdn.pdf">http://homepages.dcc.ufmg.br/~mmvieira/cc/papers/minicurso-sdn.pdf</a>, acesso em: 05/10/2022</li>
+                        <li><a href="https://www.researchgate.net/publication/290477553_Security_in_Software-Defined_Networking_Threats_and_Countermeasures">https://www.researchgate.net/publication/290477553_Security_in_Software-Defined_Networking_Threats_and_Countermeasures</a>, acesso em: 05/10/2022</li>
+                        <li><a href="https://acervolima.com/arquitetura-de-redes-definidas-por-software-sdn/">https://acervolima.com/arquitetura-de-redes-definidas-por-software-sdn/</a>, acesso em: 06/10/2022</li>
+                        <li><a href="https://www.monografias.com/pt/trabalhos3/redes-definidas-software/redes-definidas-software2.shtml">https://www.monografias.com/pt/trabalhos3/redes-definidas-software/redes-definidas-software2.shtml</a>, acesso em: 06/10/2022</li>
+                        <li><a href="https://www.ic.unicamp.br/~edmundo/MC822/mc822/MO655/Introdu%C3%A7%C3%A3o%20a%20SDN%20e%20OpenFlow.pdf">https://www.ic.unicamp.br/~edmundo/MC822/mc822/MO655/Introdu%C3%A7%C3%A3o%20a%20SDN%20e%20OpenFlow.pdf</a>, acesso em: 10/10/2022</li>
+                    </ul>
+                </div>
+            </section>
+            <hr class="m-0" />
         </div>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
